@@ -1,8 +1,8 @@
 # oomlout_oobb_led_matrix/n## Description
 an electronics project that is an led matrix in the oobb shape, currently 6 columns wide and 15 high using the aip1640 chip/
 ## Bill of Materials
-| Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  |  
-| --------- | -------- | ----- | --------- | ----------- |  
+| Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  
+| --------- | -------- | ----- | --------- | ----------- | ------| 
 | 1 | L74,L17,L88,L90,L10,L70,L80,L13,L9,L86,L71,L69,L72,L63,L20,L87,L58,L42,L16,L79,L45,L38,L85,L1,L61,L89,L4,L50,L75,L3,L76,L27,L7,L64,L35,L12,L65,L53,L60,L78,L23,L41,L83,L2,L15,L6,L22,L48,L55,L66,L5,L34,L30,L59,L11,L46,L82,L19,L73,L44,L33,L21,L31,L25,L40,L24,L57,L43,L36,L77,L51,L8,L49,L18,L14,L28,L37,L81,L29,L52,L84,L56,L32,L39,L26,L47,L62,L68,L54,L67 | l5_7297cd_electronic_led_5_mm | 90 | l5_electronic_led_5_mm |  |  |  
 | 2 | J3 | h4psmra_adfe77_electronic_header_1_mm_jst_sh_4_pin_surface_mount_right_angle | 1 | h4psmra_adfe77_electronic_header_1_mm_jst_sh_4_pin_surface_mount_right_angle |  |  |  
 | 3 | J2 | hi14p_abf4a4_electronic_header_2d54_mm_4_pin | 1 | hi14p_abf4a4_electronic_header_2d54_mm_4_pin |  |  |  
