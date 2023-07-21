@@ -9,7 +9,7 @@ base['description'] = 'an electronics project that is an led matrix in the oobb 
 
 def main():
     #set_components()
-    #oom_kicad.generate_outputs()
+    oom_kicad.generate_outputs()
     oom_kicad.generate_readme(**base)
 
 
