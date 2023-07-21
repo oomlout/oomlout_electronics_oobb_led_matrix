@@ -1,8 +1,19 @@
 import oom_kicad
 
+base = {}
+
+base['name'] = 'oomlout_oobb_led_matrix'
+base['description'] = 'an electronics project that is an led matrix in the oobb shape, currently 6 columns wide and 15 high using the aip1640 chip'
+
 
 
 def main():
+    #set_components()
+    #oom_kicad.generate_outputs()
+    oom_kicad.generate_readme(**base)
+
+
+def set_components():
     pass
     board_file = rf'C:\GH\oomlout_oobb_led_matrix\kicad\working\working.kicad_pcb'
     components = []
@@ -57,6 +68,9 @@ def main():
 
 
     oom_kicad.kicad_set_components(board_file=board_file, components=components)
+
+
+
 
 if __name__ == '__main__':
     main()
