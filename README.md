@@ -1,7 +1,7 @@
 # oomlout_oobb_led_matrix
-![oomlout_oobb_led_matrix](kicad/working/kicad_pcb_3d.png)
+![oomlout_oobb_led_matrix](oomp/current/working/kicad_pcb_3d.png)
 ## Description
-an electronics project that is an led matrix in the oobb shape, currently 6 columns wide and 15 high using the aip1640 chip/
+an electronics project that is an led matrix in the oobb shape, current version is 3 x 10 oobb with 6 columns and 15 rows of leds, it uses the aip1640 16 x 8 driver chip/
 ## Bill of Materials
 | Id | Designator | Footprint | Quantity | Designation | Supplier and ref |  |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -15,6 +15,6 @@ an electronics project that is an led matrix in the oobb shape, currently 6 colu
 | 8 | U1 | iaip1640_fe0f02_elec<br>tronic_ic_soic_28_wi<br>de_led_matrix_driver<br>_16_x_8_wuxi_i_core_<br>electronics_co_ltd_a<br>ip1640 | 1 | [16x8 led matrix driver (aip1640)](https://github.com/oomlout/oomlout_oomp_v3/tree/main/parts/electronic_ic_soic_28_wide_led_matrix_driver_16_x_8_wuxi_i_core_electronics_co_ltd_aip1640)<br>isoic28waip1640<br>fe0f02 |  |  |
 
 ## Images
-![kicad/working/kicad_pcb_3d.png](kicad/working/kicad_pcb_3d.png)
-![kicad/working/kicad_pcb_3d_back.png](kicad/working/kicad_pcb_3d_back.png)
-![kicad/working/kicad_pcb_3d_front.png](kicad/working/kicad_pcb_3d_front.png)
+![oomp/current/working/kicad_pcb_3d.png](oomp/current/working/kicad_pcb_3d.png)
+![oomp/current/working/kicad_pcb_3d_back.png](oomp/current/working/kicad_pcb_3d_back.png)
+![oomp/current/working/kicad_pcb_3d_front.png](oomp/current/working/kicad_pcb_3d_front.png)
