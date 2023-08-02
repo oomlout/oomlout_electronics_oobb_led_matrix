@@ -1,4 +1,6 @@
 import oom_kicad
+import working_opsc
+
 
 base = {}
 
@@ -8,14 +10,16 @@ base['description'] = 'an electronics project that is an led matrix in the oobb 
 
 
 def main():
-    #set_components()
+    components = set_components()
     oom_kicad.generate_outputs()
     oom_kicad.generate_readme(**base)
+
+    make_solder_jig(components=components)
 
 
 def set_components():
     pass
-    board_file = rf'C:\GH\oomlout_oobb_led_matrix\kicad\working\working.kicad_pcb'
+    board_file = rf'oomp/current_version/working/working.kicad_pcb'
     components = []
     component = {}
     #go through an array 6 wide and 15 high mage a countyer that starts at 1 and is incrmented each time
@@ -70,6 +74,11 @@ def set_components():
     oom_kicad.kicad_set_components(board_file=board_file, components=components)
 
 
+    return components
+
+def make_solder_jig(**kwargs):
+    pass
+    working_opsc.main(**kwargs)
 
 
 if __name__ == '__main__':
