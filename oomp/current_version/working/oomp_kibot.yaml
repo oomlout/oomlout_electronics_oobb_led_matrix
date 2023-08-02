@@ -144,24 +144,6 @@ outputs:
   comment: Information about the run
   type: info
   dir: .
-- name: renderer_for_present
-  comment: Renderer for the presentation
-  type: pcbdraw
-  dir: present
-  run_by_default: false
-- name: gerbers_for_present
-  comment: Gerbers for the presentation
-  type: gerber
-  dir: present
-  layers: copper
-  run_by_default: false
-- name: basic_navigate_results
-  comment: Web page to browse the results
-  type: navigate_results
-  dir: .
-  options:
-    link_from_root: index.html
-    skip_not_run: true
 - name: classic_netlist
   comment: Schematic netlist in KiCad format
   type: netlist
@@ -220,7 +202,7 @@ outputs:
       - layer: Edge.Cuts
       - layer: User.Comments
       sheet: Front documentation
-    keep_temporal_files: true
+    keep_temporal_files: false
 - name: basic_pcb_print_svg
   comment: PCB
   type: pcb_print
