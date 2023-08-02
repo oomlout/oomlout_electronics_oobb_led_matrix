@@ -10,39 +10,25 @@ global:
   - number: 58
 
 import:
-- file: Elecrow
-  definitions:
-    _KIBOT_MANF_DIR: Manufacturers/Elecrow
-- file: FusionPCB
-  definitions:
-    _KIBOT_MANF_DIR: Manufacturers/FusionPCB
 - file: JLCPCB
   definitions:
     _KIBOT_MANF_DIR: Manufacturers/JLCPCB
     _KIBOT_POS_PRE_TRANSFORM: '[''_kicost_rename'', ''_rot_footprint'']'
     _KIBOT_BOM_ENABLED: 'false'
-- file: MacroFab_XYRS
-- file: PCBWay
-  definitions:
-    _KIBOT_MANF_DIR: Manufacturers/PCBWay
 
 
 outputs:
-- name: basic_boardview
-  comment: Board View export
-  type: boardview
-  dir: Assembly
 - name: generic_bom_html
   comment: Generic Bill of Materials in HTML format
   type: bom
-  dir: BoM/Generic
+  dir: 
   options:
     format: HTML
     count_smd_tht: true
 - name: generic_bom_csv
   comment: Generic Bill of Materials in CSV format
   type: bom
-  dir: BoM/Generic
+  dir: 
   options:
     format: CSV
     count_smd_tht: true
