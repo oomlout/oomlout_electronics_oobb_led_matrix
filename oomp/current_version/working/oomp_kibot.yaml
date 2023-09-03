@@ -420,10 +420,7 @@ outputs:
   comment: Schematic in SVG format
   type: svg_sch_print
   dir: .
-- name: basic_vrml
-  comment: PCB in VRML format
-  type: vrml
-  dir: .
+
 
 ...
 definitions:  
